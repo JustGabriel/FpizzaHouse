@@ -394,61 +394,6 @@ p.ingredient-name {
     }
 }
 
-/* Testimonials */
-
-#testimonials {
-    background-color: #f3f3f3;
-}
-
-#testimonials .grid {
-    justify-content: space-between;
-}
-
-.testimonial-box {
-    flex-basis: 50%;
-    margin-top: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-@media (max-width: 575px) {
-    .testimonial-box {
-        margin-top: 10px;
-    }
-}
-
-blockquote {
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 25px;
-    width: 90%;
-    font-family: 'Open Sans';
-    font-style: italic;
-    color: #000;
-    border-left: 8px solid #865d3d;
-    line-height: 1.6;
-    background: #f3b57d;
-}
-
-blockquote i {
-    color: #865d3d;
-}
-
-blockquote span {
-    display: block;
-    color: #ffffff;
-    font-style: normal;
-    font-weight: bold;
-    margin-top: 1em;
-}
-
-@media all and (max-width: 768px) {
-    .testimonial-box {
-        flex-basis: 100%;
-    }
-}
-
 /* Pricing tables */
 
 #pricing-tables .grid {
